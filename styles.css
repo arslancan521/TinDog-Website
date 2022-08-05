@@ -96,7 +96,7 @@ p {
 #features {
   padding: 7% 15%;
   background-color: #fff;
-  
+
 
 }
 
@@ -147,4 +147,57 @@ text-align: center;
 
 .pricing-card {
   padding: 3% 2%;
+}
+
+@media (max-width : 1028px) {
+
+  #title {
+
+    text-align: center;
+
+  }
+
+  .rotated-image {
+    position: static;
+    transform:  rotate(0);
+    width: 60%;
+
+  }
+
+
+}
+
+#cta {
+
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 7% 15%;
+
+}
+
+.cta-h3 {
+
+  font-size: 2.5rem;
+  font-family: "Montserrat-Bold";
+  margin: 20px;
+  color: white;
+}
+
+#footer {
+  text-align: center;
+  padding: 7% 15%;
+
+}
+
+.footer {
+
+  margin: 10px;
+  padding-bottom: 10px;
+
+}
+
+.footer-p {
+
+  margin: 10px;
+  font-size: 20px;
 }
